@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+}
+.Cabeçalho {
+  text-align: center;
+  color: red;
+  background-color: black;
+  height: 75px;
+  padding: 10px;
+}
+.Submenu {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  border: 2px solid rgb(255, 0, 0);
+  background-color: black;
+}
+.Submenu a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Submenu a:hover {
+  color: rgb(255, 0, 0);
+}
+.catalogo {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  height: 250px;
+}
+.catalogo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 255, 55);
+}
+
+.item1 {
+  align-self: flex-start;
+}
+
+.item2 {
+  align-self: center;
+}
+.item3 {
+  align-self: flex-start;
+}
+.item4 {
+  align-self: center;
+}
+.item5 {
+  align-self: flex-start;
+}
+.item6 {
+  align-self: center;
+}
+.item7 {
+  align-self: flex-start;
+}
+.item8 {
+  align-self: center;
+}
+.item9 {
+  align-self: flex-start;
+}
+.item10 {
+  align-self: center;
+}
+
+.borda {
+  width: 1305px;
+  height: 250px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
